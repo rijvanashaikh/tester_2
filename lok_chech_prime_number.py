@@ -1,4 +1,4 @@
-num = 11
+num =int(input("enter any number :"))
 
 if num > 1:
     for i in range(2, int(num/2)+1):
@@ -7,5 +7,5 @@ if num > 1:
             break
     else:
         print(num, "is a prime number")
-else:
+else :
     print(num, "is not a prime number")
